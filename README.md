@@ -2,7 +2,7 @@
 ## 2nd_seminar  
 ### __* View 간의 데이터 전달 - Segue__
 
-```
+```swift
 //destination scene이 나타나기 전 미리 필요한 작업을 수행하기위해 준비해주는 단계
 override func prepare(for segue: UIStoryboardSegue, sender: Any?){
     
@@ -17,7 +17,7 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?){
 
 <img width="411" alt="스크린샷 2019-10-18 오후 8 39 41" src="https://user-images.githubusercontent.com/22251299/67091851-b43b4280-f1e8-11e9-8d24-ed17356a077f.png">
 
-```
+```swift
 @IBAction func onSubmit(_ sender: Any) {
     
     //(withIdentifier: "Next viewcontroller의 storyboard ID")
@@ -45,7 +45,7 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?){
 
 <img width="411" alt="스크린샷 2019-10-18 오후 8 06 22" src="https://user-images.githubusercontent.com/22251299/67090115-3c6b1900-f1e4-11e9-963e-9794f9de4149.png">
 
-````   
+```swift  
 // 로그인 뷰의 모든 AutoLayout을 잡고 StackView의 'Center Y축을' @IBOutlet으로 선언해서 키보드 제스처에 따라 높이를 제어
 @IBOutlet weak var stackViewCenterY: NSLayoutConstraint! 
 ```
