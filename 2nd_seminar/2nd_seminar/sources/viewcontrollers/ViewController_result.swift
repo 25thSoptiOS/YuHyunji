@@ -29,15 +29,9 @@ class ViewController_result: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    //코드로 Back Action(이때,스토리보드에선 뷰간 연결해주면 안됨)
+    @IBAction func onBack(_ sender: Any) {
+        self.dismiss(animated: true)
     }
-    */
-
+    
 }

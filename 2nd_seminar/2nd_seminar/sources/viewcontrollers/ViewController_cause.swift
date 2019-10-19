@@ -25,7 +25,7 @@ class ViewController_cause: UIViewController {
     
     @IBAction func onSubmit(_ sender: Any) {
         
-        // (withIdentifier: "다음 viewcontroller의 storyboard ID")
+        //(withIdentifier: "Next viewcontroller의 storyboard ID")
         guard let rvc = self.storyboard?.instantiateViewController(withIdentifier: "RVC") as? ViewController_result
             else {
                 return
@@ -35,7 +35,7 @@ class ViewController_cause: UIViewController {
         rvc.paramUpdate = self.isUpdate.isOn
         rvc.paramInterval = self.interval.value
         
-        // 뷰간의 코드로 present 연결
+        //코드로 뷰간의 present연결(이때,스토리보드에선 뷰간 연결해주면 안됨)
         self.present(rvc,animated: true)
         
     }
