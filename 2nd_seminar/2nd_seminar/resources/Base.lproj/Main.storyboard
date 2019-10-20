@@ -392,15 +392,15 @@
                             <constraint firstItem="Hvw-cv-2li" firstAttribute="top" secondItem="W9l-CR-bfQ" secondAttribute="bottom" constant="29" id="5Ip-of-kQW"/>
                             <constraint firstItem="W9l-CR-bfQ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="zwR-lv-dFJ" secondAttribute="leading" id="6Gj-Pe-m5o"/>
                             <constraint firstItem="W9l-CR-bfQ" firstAttribute="centerX" secondItem="qBI-40-nyQ" secondAttribute="centerX" id="HNH-Sc-9rY"/>
-                            <constraint firstItem="Fpt-mM-Mls" firstAttribute="trailing" secondItem="eRZ-f1-Ken" secondAttribute="trailing" id="JUY-Fd-H58"/>
-                            <constraint firstItem="Fpt-mM-Mls" firstAttribute="leading" secondItem="eRZ-f1-Ken" secondAttribute="leading" id="M5L-El-Jas"/>
+                            <constraint firstItem="Fpt-mM-Mls" firstAttribute="trailing" secondItem="qBI-40-nyQ" secondAttribute="trailing" id="JUY-Fd-H58"/>
+                            <constraint firstItem="Fpt-mM-Mls" firstAttribute="leading" secondItem="qBI-40-nyQ" secondAttribute="leading" id="M5L-El-Jas"/>
                             <constraint firstItem="zwR-lv-dFJ" firstAttribute="centerX" secondItem="qBI-40-nyQ" secondAttribute="centerX" id="MrG-tJ-lkk"/>
                             <constraint firstItem="zwR-lv-dFJ" firstAttribute="centerY" secondItem="qBI-40-nyQ" secondAttribute="centerY" id="Q6b-HB-GyT"/>
                             <constraint firstItem="ahh-Vc-zva" firstAttribute="centerX" secondItem="qBI-40-nyQ" secondAttribute="centerX" id="Qjl-fU-Bpc"/>
                             <constraint firstItem="W9l-CR-bfQ" firstAttribute="top" secondItem="zwR-lv-dFJ" secondAttribute="bottom" constant="40" id="ZuW-KK-IcH"/>
                             <constraint firstItem="Hvw-cv-2li" firstAttribute="centerX" secondItem="qBI-40-nyQ" secondAttribute="centerX" id="cr0-6r-dj7"/>
                             <constraint firstItem="Fpt-mM-Mls" firstAttribute="top" secondItem="ahh-Vc-zva" secondAttribute="bottom" constant="35" id="dOI-SG-aDV"/>
-                            <constraint firstItem="Fpt-mM-Mls" firstAttribute="bottom" secondItem="eRZ-f1-Ken" secondAttribute="bottom" id="sHg-0K-dxc"/>
+                            <constraint firstItem="Fpt-mM-Mls" firstAttribute="bottom" secondItem="qBI-40-nyQ" secondAttribute="bottom" id="sHg-0K-dxc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="eRZ-f1-Ken"/>
                     </view>

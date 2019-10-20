@@ -92,8 +92,9 @@ class ViewController_iEum: UIViewController {
                 self.logoImgView.alpha = 0
                 
                 // +로 갈수록 y값이 내려가고 -로 갈수록 y값이 올라간다.
-                self.stackViewCenterY.constant = -keyboardHeight/2 + 50
+                self.stackViewCenterY.constant = -keyboardHeight/2 + 125
             })
+            //스택뷰 CenterY 잡아와서 constant 계산
             
             self.view.layoutIfNeeded()
         }
