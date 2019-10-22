@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_nd_assignment" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="e2T-qr-6Xh">
+                                <rect key="frame" x="15" y="636" width="385" height="85"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gnv-bm-9BN" customClass="Roundingbutton" customModule="_nd_assignment" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="85" height="85"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="85" id="1oU-se-pRL"/>
+                                            <constraint firstAttribute="height" constant="85" id="f3H-QS-GbD"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        <state key="normal" title="AC">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnResetClickWithBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="drD-GP-kTH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kIf-Tk-7o3" customClass="Roundingbutton" customModule="_nd_assignment" customModuleProvider="target">
+                                        <rect key="frame" x="100" y="0.0" width="85" height="85"/>
+                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="85" id="kdg-EZ-c9E"/>
+                                            <constraint firstAttribute="height" constant="85" id="q4U-hr-vLW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <state key="normal" title="0">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnNumberClickWithBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZJR-k8-eoc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNE-xb-RiE" customClass="Roundingbutton" customModule="_nd_assignment" customModuleProvider="target">
+                                        <rect key="frame" x="200" y="0.0" width="85" height="85"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="85" id="BHs-mS-Nlo"/>
+                                            <constraint firstAttribute="width" constant="85" id="BLa-4d-xt7"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <state key="normal" title="=">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="operationWithSign:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Vv-OW-487"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdv-KF-o0x" customClass="Roundingbutton" customModule="_nd_assignment" customModuleProvider="target">
+                                        <rect key="frame" x="300" y="0.0" width="85" height="85"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="85" id="48K-G6-Se6"/>
+                                            <constraint firstAttribute="width" constant="85" id="Eh2-A7-cwt"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <state key="normal" title="+">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="operationWithSign:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dif-ub-93Y"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="XhS-s4-pLe">
+                                <rect key="frame" x="15" y="537" width="385" height="85"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tso-sa-KcC" customClass="Roundingbutton" customModule="_nd_assignment" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="85" height="85"/>
+                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="85" id="MUb-88-2lF"/>
+                                            <constraint firstAttribute="height" constant="85" id="y8e-KA-B6J"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        <state key="normal" title="1">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnNumberClickWithBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IKR-P9-Epq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1W-aF-47O" customClass="Roundingbutton" customModule="_nd_assignment" customModuleProvider="target">
+                                        <rect key="frame" x="100" y="0.0" width="85" height="85"/>
+                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="85" id="N2m-S0-4oL"/>
+                                            <constraint firstAttribute="height" constant="85" id="kfW-hM-EC2"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <state key="normal" title="2">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnNumberClickWithBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r1Y-n5-nVl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7px-QO-UiJ" customClass="Roundingbutton" customModule="_nd_assignment" customModuleProvider="target">
+                                        <rect key="frame" x="200" y="0.0" width="85" height="85"/>
+                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="85" id="Nwf-6v-q8z"/>
+                                            <constraint firstAttribute="width" constant="85" id="sqR-Ww-4nu"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <state key="normal" title="3">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnNumberClickWithBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wmb-Ba-LAL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hj9-gL-b3k" customClass="Roundingbutton" customModule="_nd_assignment" customModuleProvider="target">
+                                        <rect key="frame" x="300" y="0.0" width="85" height="85"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="85" id="Pjg-XQ-ymM"/>
+                                            <constraint firstAttribute="width" constant="85" id="tY4-ql-TeT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <state key="normal" title="−">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="operationWithSign:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ENk-un-di3"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="dr7-ek-AVa">
+                                <rect key="frame" x="15" y="438" width="385" height="85"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xzt-6C-saW" customClass="Roundingbutton" customModule="_nd_assignment" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="85" height="85"/>
+                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="85" id="ZN0-uP-wI2"/>
+                                            <constraint firstAttribute="height" constant="85" id="kAZ-3s-OMN"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        <state key="normal" title="4">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnNumberClickWithBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="juD-aB-VTS"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RHy-O8-tlS" customClass="Roundingbutton" customModule="_nd_assignment" customModuleProvider="target">
+                                        <rect key="frame" x="100" y="0.0" width="85" height="85"/>
+                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="85" id="1Qx-LS-i0W"/>
+                                            <constraint firstAttribute="width" constant="85" id="tPE-RT-Ta7"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <state key="normal" title="5">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnNumberClickWithBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S9x-PT-r6O"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k3t-qQ-b3e" customClass="Roundingbutton" customModule="_nd_assignment" customModuleProvider="target">
+                                        <rect key="frame" x="200" y="0.0" width="85" height="85"/>
+                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="85" id="98x-qV-E3T"/>
+                                            <constraint firstAttribute="height" constant="85" id="gy9-Ij-JVQ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <state key="normal" title="6">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnNumberClickWithBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kU2-ud-AcV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a4j-MQ-hjm" customClass="Roundingbutton" customModule="_nd_assignment" customModuleProvider="target">
+                                        <rect key="frame" x="300" y="0.0" width="85" height="85"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="85" id="Ohx-e5-okl"/>
+                                            <constraint firstAttribute="width" constant="85" id="QbG-y4-I9M"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <state key="normal" title="×">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="operationWithSign:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Cf-ve-2nT"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Orw-UJ-LMX">
+                                <rect key="frame" x="15" y="339" width="385" height="85"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qQq-mn-r4u" customClass="Roundingbutton" customModule="_nd_assignment" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="85" height="85"/>
+                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="85" id="6ky-8t-N7J"/>
+                                            <constraint firstAttribute="width" constant="85" id="Gos-pk-cwD"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        <state key="normal" title="7">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnNumberClickWithBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JxF-fL-8Wi"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6pe-5R-iYh" customClass="Roundingbutton" customModule="_nd_assignment" customModuleProvider="target">
+                                        <rect key="frame" x="100" y="0.0" width="85" height="85"/>
+                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="85" id="Unb-Aw-bC1"/>
+                                            <constraint firstAttribute="height" constant="85" id="kwe-JZ-IZn"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <state key="normal" title="8">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnNumberClickWithBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uc6-8q-7cb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdp-4e-TBe" customClass="Roundingbutton" customModule="_nd_assignment" customModuleProvider="target">
+                                        <rect key="frame" x="200" y="0.0" width="85" height="85"/>
+                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="85" id="qlP-rR-UVJ"/>
+                                            <constraint firstAttribute="height" constant="85" id="rI2-rj-wZm"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <state key="normal" title="9">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnNumberClickWithBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="45P-fp-2Gq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BC8-oA-4E4" customClass="Roundingbutton" customModule="_nd_assignment" customModuleProvider="target">
+                                        <rect key="frame" x="300" y="0.0" width="85" height="85"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="85" id="5Ij-86-cEc"/>
+                                            <constraint firstAttribute="height" constant="85" id="N5w-Rh-byE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <state key="normal" title="÷">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="operationWithSign:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mwa-Ef-NH6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="OhV-ba-Hs8">
+                                <rect key="frame" x="15" y="232" width="385" height="85"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rf4-UA-zTd">
+                                        <rect key="frame" x="0.0" y="0.0" width="385" height="85"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="85" id="70N-8V-UMV"/>
+                                            <constraint firstAttribute="width" constant="385" id="ze4-HF-Olv"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="62"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="e2T-qr-6Xh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="4tR-1q-Jv3"/>
+                            <constraint firstItem="XhS-s4-pLe" firstAttribute="top" secondItem="dr7-ek-AVa" secondAttribute="bottom" constant="14" id="4uJ-hf-iW0"/>
+                            <constraint firstAttribute="trailing" secondItem="e2T-qr-6Xh" secondAttribute="trailing" constant="14" id="ISz-2l-qdJ"/>
+                            <constraint firstItem="Orw-UJ-LMX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="M4u-QK-FBV"/>
+                            <constraint firstItem="dr7-ek-AVa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="aiF-p1-hvO"/>
+                            <constraint firstItem="e2T-qr-6Xh" firstAttribute="top" secondItem="XhS-s4-pLe" secondAttribute="bottom" constant="14" id="dCb-o0-Okt"/>
+                            <constraint firstAttribute="trailing" secondItem="Orw-UJ-LMX" secondAttribute="trailing" constant="14" id="fpc-QZ-K1i"/>
+                            <constraint firstAttribute="trailing" secondItem="dr7-ek-AVa" secondAttribute="trailing" constant="14" id="gE7-Pu-r4z"/>
+                            <constraint firstItem="OhV-ba-Hs8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="ha1-9e-Geq"/>
+                            <constraint firstItem="dr7-ek-AVa" firstAttribute="top" secondItem="Orw-UJ-LMX" secondAttribute="bottom" constant="14" id="mjc-uO-nxj"/>
+                            <constraint firstAttribute="trailing" secondItem="OhV-ba-Hs8" secondAttribute="trailing" constant="14" id="q2u-dk-8BE"/>
+                            <constraint firstItem="XhS-s4-pLe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="qQA-Md-jwp"/>
+                            <constraint firstAttribute="trailing" secondItem="XhS-s4-pLe" secondAttribute="trailing" constant="14" id="wkI-wn-3fS"/>
+                            <constraint firstAttribute="bottom" secondItem="e2T-qr-6Xh" secondAttribute="bottom" constant="15" id="ykd-Yr-aNK"/>
+                            <constraint firstItem="Orw-UJ-LMX" firstAttribute="top" secondItem="OhV-ba-Hs8" secondAttribute="bottom" constant="22" id="zqj-Ra-zOs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="displayLabel" destination="Rf4-UA-zTd" id="nw6-6w-5kP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="136.95652173913044"/>
+        </scene>
+    </scenes>
+</document>
