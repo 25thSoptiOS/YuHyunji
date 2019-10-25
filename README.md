@@ -15,7 +15,7 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?){
 
 ### __* View 간의 데이터 전달 - 직접 전달 방식__
 
-<img width="411" alt="스크린샷 2019-10-18 오후 8 39 41" src="https://user-images.githubusercontent.com/22251299/67091851-b43b4280-f1e8-11e9-8d24-ed17356a077f.png">
+<img width="200" alt="스크린샷 2019-10-18 오후 8 39 41" src="https://user-images.githubusercontent.com/22251299/67091851-b43b4280-f1e8-11e9-8d24-ed17356a077f.png">
 
 ```swift
 @IBAction func onSubmit(_ sender: Any) {
@@ -38,9 +38,9 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?){
 
 ### __* 과제1: Stackview - Loginview그리기__
 <div>
-<img width="411" alt="스크린샷 2019-10-18 오후 8 06 36" src="https://user-images.githubusercontent.com/22251299/67090084-26f5ef00-f1e4-11e9-8d93-71bdd0a9b10a.png">
+<img width="200" alt="스크린샷 2019-10-18 오후 8 06 36" src="https://user-images.githubusercontent.com/22251299/67090084-26f5ef00-f1e4-11e9-8d93-71bdd0a9b10a.png">
 
-<img width="411" alt="스크린샷 2019-10-18 오후 8 06 22" src="https://user-images.githubusercontent.com/22251299/67090115-3c6b1900-f1e4-11e9-963e-9794f9de4149.png">
+<img width="200" alt="스크린샷 2019-10-18 오후 8 06 22" src="https://user-images.githubusercontent.com/22251299/67090115-3c6b1900-f1e4-11e9-963e-9794f9de4149.png">
 </div>
 
 
@@ -52,5 +52,5 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?){
 ### __* 과제2: Stackview - Calculator그리기__
 
 <div>
-<img width="411" alt="스크린샷 2019-10-25 오전 10 12 06" src="https://user-images.githubusercontent.com/22251299/67537644-45457880-f717-11e9-92db-4efac2694b7d.png">
+<img width="200" alt="스크린샷 2019-10-25 오전 10 12 06" src="https://user-images.githubusercontent.com/22251299/67537644-45457880-f717-11e9-92db-4efac2694b7d.png">
 </div>
