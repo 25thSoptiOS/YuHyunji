@@ -17,12 +17,12 @@ class ViewController: UIViewController {
         displayLabel.text = "0"
     }
     
-    var displayText: String = "0"
+    var displayText: String = "0" //클릭된 '숫자'
     var prevSign: String = "+" //클릭된 '연산기호'
     var prev: Int = 0 //값저장소
     var current: Int = 0 //현재누른값
 
-    //displayLabel.text될 숫자 및 displayText 정의
+    //displayLabel.text될 숫자 및 displayText 정의 (= 값 만들기)
     @IBAction func btnNumberClick(btn: UIButton) {
         if displayLabel.text == "0" {
             displayText = (btn.titleLabel?.text)!
