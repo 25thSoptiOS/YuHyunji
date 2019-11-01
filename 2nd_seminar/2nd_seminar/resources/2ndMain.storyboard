@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="f6N-Es-ikm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="f6N-Es-ikm">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--홈-->
         <scene sceneID="EMH-hr-xub">
             <objects>
                 <viewController id="f6N-Es-ikm" customClass="_ndViewController" customModule="_nd_seminar" customModuleProvider="target" sceneMemberID="viewController">
@@ -61,8 +61,8 @@
                                             </collectionView>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="mps-5v-nnE" userLabel="WorkCV">
                                                 <rect key="frame" x="0.0" y="274.33333333333343" width="414" height="725.66666666666652"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0xJ-Ic-uAg">
+                                                <color key="backgroundColor" red="0.98028594260000002" green="0.9804533124" blue="0.98027533290000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="17" minimumInteritemSpacing="12" id="0xJ-Ic-uAg">
                                                     <size key="itemSize" width="180" height="253"/>
                                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -93,11 +93,26 @@
                                                     </collectionViewCell>
                                                 </cells>
                                             </collectionView>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Cj-j1-rKq">
+                                                <rect key="frame" x="28" y="225" width="12" height="12"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="0.82117998599999997" blue="0.66859489679999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="모든작품" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qpJ-3H-VNN">
+                                                <rect key="frame" x="34" y="228" width="77" height="27"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="qpJ-3H-VNN" secondAttribute="trailing" constant="303" id="34S-av-xUw"/>
+                                            <constraint firstItem="qpJ-3H-VNN" firstAttribute="top" secondItem="wlQ-UE-nvs" secondAttribute="bottom" constant="19" id="9DK-33-gEf"/>
+                                            <constraint firstItem="qpJ-3H-VNN" firstAttribute="leading" secondItem="3ZQ-EI-OTU" secondAttribute="leading" constant="34" id="9vK-0G-T1k"/>
                                             <constraint firstAttribute="bottom" secondItem="mps-5v-nnE" secondAttribute="bottom" id="DWr-mT-DcE"/>
                                             <constraint firstItem="mps-5v-nnE" firstAttribute="top" secondItem="wlQ-UE-nvs" secondAttribute="bottom" constant="65.299999999999997" id="St8-El-8Tm"/>
+                                            <constraint firstItem="mps-5v-nnE" firstAttribute="top" secondItem="qpJ-3H-VNN" secondAttribute="bottom" constant="19.329999999999998" id="WID-P0-U1d"/>
                                             <constraint firstItem="wlQ-UE-nvs" firstAttribute="top" secondItem="3ZQ-EI-OTU" secondAttribute="top" id="d2B-d9-Zht"/>
                                             <constraint firstItem="wlQ-UE-nvs" firstAttribute="trailing" secondItem="mps-5v-nnE" secondAttribute="trailing" id="n61-SN-KA5"/>
                                             <constraint firstAttribute="trailing" secondItem="mps-5v-nnE" secondAttribute="trailing" id="ogO-RT-0Fh"/>
@@ -108,7 +123,7 @@
                                     <view contentMode="scaleToFill" id="IJK-Rm-XpA" customClass="CHIPageControlAleppo" customModule="CHIPageControl">
                                         <rect key="frame" x="0.0" y="160" width="100" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="tintColor" systemColor="systemPurpleColor" red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="numberOfPages">
                                                 <integer key="value" value="3"/>
@@ -146,17 +161,19 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XLY-2U-ofl"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="bxw-fP-NKc"/>
+                    <tabBarItem key="tabBarItem" title="홈" id="bxw-fP-NKc"/>
                     <size key="freeformSize" width="414" height="1000"/>
                     <connections>
                         <outlet property="bannerCV" destination="wlQ-UE-nvs" id="aCC-m2-EHo"/>
+                        <outlet property="decoration" destination="2Cj-j1-rKq" id="zSk-KR-aqx"/>
+                        <outlet property="headline" destination="qpJ-3H-VNN" id="0oZ-Yz-55G"/>
                         <outlet property="paging" destination="IJK-Rm-XpA" id="JFk-c3-p5q"/>
                         <outlet property="workCV" destination="mps-5v-nnE" id="csh-Ge-rbq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w7j-sn-o20" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1134.7826086956522" y="179.34782608695653"/>
+            <point key="canvasLocation" x="2042.0289855072465" y="179.34782608695653"/>
         </scene>
     </scenes>
     <resources>

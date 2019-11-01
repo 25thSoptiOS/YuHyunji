@@ -54,3 +54,13 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?){
 <div>
 <img width="200" alt="스크린샷 2019-10-25 오전 10 12 06" src="https://user-images.githubusercontent.com/22251299/67537644-45457880-f717-11e9-92db-4efac2694b7d.png">
 </div>
+
+
+## 3rd_seminar  
+### __* ScrollView & CollectionView그리기__
+
+<div>
+<img width="200" alt="스크린샷 2019-11-01 오후 9 30 14" src="https://user-images.githubusercontent.com/22251299/68025318-cdb3b280-fcef-11e9-9379-3009bfea8c57.png">
+
+<img width="200" alt="스크린샷 2019-11-01 오후 9 33 59" src="https://user-images.githubusercontent.com/22251299/68025269-baa0e280-fcef-11e9-8857-03b04667ea44.png">
+</div>

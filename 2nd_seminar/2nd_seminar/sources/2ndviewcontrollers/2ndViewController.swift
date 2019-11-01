@@ -11,13 +11,19 @@ import CHIPageControl
 
 class _ndViewController: UIViewController {
     
+
+    @IBOutlet weak var decoration: UIView!
+    @IBOutlet weak var headline: UILabel!
     @IBOutlet weak var bannerCV: UICollectionView!
     @IBOutlet weak var paging: CHIPageControlAleppo!
     @IBOutlet weak var workCV: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+    
+        decoration.layer.cornerRadius = self.decoration.frame.size.width / 2
+        decoration.layer.borderColor = CGColor(srgbRed: 255, green: 209, blue: 270, alpha: 1)
+    
         setBanner()
         setWork()
         bannerCV.delegate = self
@@ -31,6 +37,7 @@ class _ndViewController: UIViewController {
 }
 
 //'bannerCV.delegate = self'이 구문오류발생 했을 때
+//UICollectionViewDelegate를 채택하는 코드
 extension _ndViewController: UICollectionViewDelegate{
     
     //@IBOutlet weak var paging: CHIPageControlAleppo!
@@ -103,9 +110,21 @@ extension _ndViewController {
         let work6 = Work(workName: "mainImg06")
         let work7 = Work(workName: "mainImg07")
         let work8 = Work(workName: "mainImg08")
+        let work9 = Work(workName: "mainImg09")
+        let work10 = Work(workName: "mainImg10")
+        let work11 = Work(workName: "mainImg11")
+        let work12 = Work(workName: "mainImg12")
+        let work13 = Work(workName: "mainImg13")
+        let work14 = Work(workName: "mainImg14")
+        let work15 = Work(workName: "mainImg15")
+        let work16 = Work(workName: "mainImg16")
+        let work17 = Work(workName: "mainImg17")
+        let work18 = Work(workName: "mainImg18")
+        let work19 = Work(workName: "mainImg19")
+        let work20 = Work(workName: "mainImg20")
+        let work21 = Work(workName: "mainImg21")
 
-       
-        appDelegate.workList = [work1, work2, work3, work4, work5, work6, work7, work8]
+        appDelegate.workList = [work1, work2, work3, work4, work5, work6, work7, work8, work9, work10, work11, work12, work13, work14, work15, work16, work17, work18, work19, work20, work21]
     }
 
 }
