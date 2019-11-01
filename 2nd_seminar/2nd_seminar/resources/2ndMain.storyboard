@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="25t-u1-gfc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="f6N-Es-ikm">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
@@ -22,10 +22,12 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ZQ-EI-OTU">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                                         <subviews>
-                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="wlQ-UE-nvs" userLabel="BannerCV">
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="wlQ-UE-nvs" userLabel="BannerCV">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="209"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="209" id="V0O-lK-tTw"/>
+                                                </constraints>
                                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="cE6-hb-VzW">
                                                     <size key="itemSize" width="414" height="209"/>
                                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -57,13 +59,56 @@
                                                     </collectionViewCell>
                                                 </cells>
                                             </collectionView>
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="mps-5v-nnE" userLabel="WorkCV">
+                                                <rect key="frame" x="0.0" y="274.33333333333343" width="414" height="725.66666666666652"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0xJ-Ic-uAg">
+                                                    <size key="itemSize" width="180" height="253"/>
+                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                    <inset key="sectionInset" minX="21" minY="20" maxX="21" maxY="20"/>
+                                                </collectionViewFlowLayout>
+                                                <cells>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WorkCell" id="SwI-oW-Tef" customClass="WorkCell" customModule="_nd_seminar" customModuleProvider="target">
+                                                        <rect key="frame" x="21" y="20" width="180" height="253"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="xFx-UL-aK2">
+                                                            <rect key="frame" x="0.0" y="0.0" width="180" height="253"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainImg01" translatesAutoresizingMaskIntoConstraints="NO" id="tjw-Yj-L3D" userLabel="Work">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="180" height="253"/>
+                                                                </imageView>
+                                                            </subviews>
+                                                            <constraints>
+                                                                <constraint firstAttribute="trailing" secondItem="tjw-Yj-L3D" secondAttribute="trailing" id="24q-ti-UO6"/>
+                                                                <constraint firstItem="tjw-Yj-L3D" firstAttribute="top" secondItem="xFx-UL-aK2" secondAttribute="top" id="URa-xZ-HbW"/>
+                                                                <constraint firstAttribute="bottom" secondItem="tjw-Yj-L3D" secondAttribute="bottom" id="eXx-Z8-fFM"/>
+                                                                <constraint firstItem="tjw-Yj-L3D" firstAttribute="leading" secondItem="xFx-UL-aK2" secondAttribute="leading" id="lti-Rx-L5V"/>
+                                                            </constraints>
+                                                        </collectionViewCellContentView>
+                                                        <connections>
+                                                            <outlet property="work" destination="tjw-Yj-L3D" id="Uta-L6-BPl"/>
+                                                        </connections>
+                                                    </collectionViewCell>
+                                                </cells>
+                                            </collectionView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="mps-5v-nnE" secondAttribute="bottom" id="DWr-mT-DcE"/>
+                                            <constraint firstItem="mps-5v-nnE" firstAttribute="top" secondItem="wlQ-UE-nvs" secondAttribute="bottom" constant="65.299999999999997" id="St8-El-8Tm"/>
+                                            <constraint firstItem="wlQ-UE-nvs" firstAttribute="top" secondItem="3ZQ-EI-OTU" secondAttribute="top" id="d2B-d9-Zht"/>
+                                            <constraint firstItem="wlQ-UE-nvs" firstAttribute="trailing" secondItem="mps-5v-nnE" secondAttribute="trailing" id="n61-SN-KA5"/>
+                                            <constraint firstAttribute="trailing" secondItem="mps-5v-nnE" secondAttribute="trailing" id="ogO-RT-0Fh"/>
+                                            <constraint firstItem="mps-5v-nnE" firstAttribute="leading" secondItem="3ZQ-EI-OTU" secondAttribute="leading" id="vqx-hn-aVe"/>
+                                            <constraint firstItem="wlQ-UE-nvs" firstAttribute="leading" secondItem="mps-5v-nnE" secondAttribute="leading" id="xGE-jV-iir"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" id="IJK-Rm-XpA" customClass="CHIPageControlAleppo" customModule="CHIPageControl">
                                         <rect key="frame" x="0.0" y="160" width="100" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="tintColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" systemColor="systemPurpleColor" red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="numberOfPages">
                                                 <integer key="value" value="3"/>
@@ -106,31 +151,16 @@
                     <connections>
                         <outlet property="bannerCV" destination="wlQ-UE-nvs" id="aCC-m2-EHo"/>
                         <outlet property="paging" destination="IJK-Rm-XpA" id="JFk-c3-p5q"/>
+                        <outlet property="workCV" destination="mps-5v-nnE" id="csh-Ge-rbq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w7j-sn-o20" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1136.231884057971" y="179.34782608695653"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="DzM-TS-xhX">
-            <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="25t-u1-gfc" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Col-hn-e1O">
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="f6N-Es-ikm" kind="relationship" relationship="viewControllers" id="4AQ-Nh-I5j"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KEl-qm-Fpz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="228.98550724637684" y="179.34782608695653"/>
+            <point key="canvasLocation" x="1134.7826086956522" y="179.34782608695653"/>
         </scene>
     </scenes>
     <resources>
         <image name="mainImage" width="414" height="209"/>
+        <image name="mainImg01" width="180" height="253"/>
     </resources>
 </document>

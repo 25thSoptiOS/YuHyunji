@@ -13,6 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     //스토리보드와 상관없이 관리가능
     var bannerList: [Banner] = []
+    var workList: [Work] = []
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {

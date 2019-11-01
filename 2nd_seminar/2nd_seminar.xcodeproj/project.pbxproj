@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		A151FCAB23641CD700BF304F /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151FCAA23641CD700BF304F /* BannerCell.swift */; };
 		A151FCAD2364210400BF304F /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151FCAC2364210400BF304F /* Banner.swift */; };
 		A151FCB0236429F900BF304F /* UIViewController+AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151FCAF236429F900BF304F /* UIViewController+AppDelegate.swift */; };
+		A1621AEA236BFB5C006BC8D3 /* WorkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1621AE9236BFB5C006BC8D3 /* WorkCell.swift */; };
+		A1621AEC236BFDA4006BC8D3 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1621AEB236BFDA4006BC8D3 /* Work.swift */; };
 		A1C1D3C42358958900666DEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C1D3C32358958900666DEF /* AppDelegate.swift */; };
 		A1C1D3C62358958900666DEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C1D3C52358958900666DEF /* SceneDelegate.swift */; };
 		A1C1D3C82358958900666DEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C1D3C72358958900666DEF /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 		A151FCAA23641CD700BF304F /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
 		A151FCAC2364210400BF304F /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 		A151FCAF236429F900BF304F /* UIViewController+AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+AppDelegate.swift"; sourceTree = "<group>"; };
+		A1621AE9236BFB5C006BC8D3 /* WorkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkCell.swift; sourceTree = "<group>"; };
+		A1621AEB236BFDA4006BC8D3 /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
 		A1C1D3C02358958900666DEF /* 2nd_seminar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2nd_seminar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C1D3C32358958900666DEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1C1D3C52358958900666DEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,7 +79,9 @@
 			children = (
 				A151FCAC2364210400BF304F /* Banner.swift */,
 				A151FCAA23641CD700BF304F /* BannerCell.swift */,
+				A1621AEB236BFDA4006BC8D3 /* Work.swift */,
 				A151FCAF236429F900BF304F /* UIViewController+AppDelegate.swift */,
+				A1621AE9236BFB5C006BC8D3 /* WorkCell.swift */,
 				A151FCA82364157C00BF304F /* 2ndViewController.swift */,
 			);
 			path = 2ndviewcontrollers;
@@ -150,7 +156,6 @@
 				136257F11A83ADCC934C640B /* Pods-2nd_seminar.debug.xcconfig */,
 				52810EB315098B3F4D38562F /* Pods-2nd_seminar.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -272,11 +277,13 @@
 			files = (
 				A151FCA92364157C00BF304F /* 2ndViewController.swift in Sources */,
 				A151FCAB23641CD700BF304F /* BannerCell.swift in Sources */,
+				A1621AEA236BFB5C006BC8D3 /* WorkCell.swift in Sources */,
 				A1C1D3DA235896A800666DEF /* ViewController_pinkScreen.swift in Sources */,
 				A1C1D3D82358968300666DEF /* ViewController_greenScreen.swift in Sources */,
 				A151FCAD2364210400BF304F /* Banner.swift in Sources */,
 				A151FCB0236429F900BF304F /* UIViewController+AppDelegate.swift in Sources */,
 				A1C9399B23589B6500CAD2DD /* ViewController_iEum.swift in Sources */,
+				A1621AEC236BFDA4006BC8D3 /* Work.swift in Sources */,
 				A1C939972358982000CAD2DD /* ViewController_cause.swift in Sources */,
 				A1C939992358982D00CAD2DD /* ViewController_result.swift in Sources */,
 				A1C1D3C82358958900666DEF /* ViewController.swift in Sources */,
