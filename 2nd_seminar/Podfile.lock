@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (4.8.2)
   - CHIPageControl (0.1.8):
     - CHIPageControl/Aji (= 0.1.8)
     - CHIPageControl/Aleppo (= 0.1.8)
@@ -16,17 +17,24 @@ PODS:
   - CHIPageControl/Jaloro (0.1.8)
   - CHIPageControl/Paprika (0.1.8)
   - CHIPageControl/Puya (0.1.8)
+  - Kingfisher (4.10.1)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.8.2)
   - CHIPageControl (~> 0.1.3)
+  - Kingfisher (~> 4.10.1)
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - CHIPageControl
+    - Kingfisher
 
 SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   CHIPageControl: 76b35c8309d8dd155e869c109cc6ffc0aaa465ff
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
 
-PODFILE CHECKSUM: 4b091bc4c831202c1ecefa299953ec7fced10746
+PODFILE CHECKSUM: bef2fbd64df1677ecf98ca5342adedf383b6a535
 
 COCOAPODS: 1.8.4

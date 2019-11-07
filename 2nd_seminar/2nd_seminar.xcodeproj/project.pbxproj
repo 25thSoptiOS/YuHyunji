@@ -13,6 +13,7 @@
 		A151FCAB23641CD700BF304F /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151FCAA23641CD700BF304F /* BannerCell.swift */; };
 		A151FCAD2364210400BF304F /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151FCAC2364210400BF304F /* Banner.swift */; };
 		A151FCB0236429F900BF304F /* UIViewController+AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151FCAF236429F900BF304F /* UIViewController+AppDelegate.swift */; };
+		A15A8CAF236D67120086EA4B /* ViewController_iEum_signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A8CAE236D67120086EA4B /* ViewController_iEum_signup.swift */; };
 		A1621AEA236BFB5C006BC8D3 /* WorkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1621AE9236BFB5C006BC8D3 /* WorkCell.swift */; };
 		A1621AEC236BFDA4006BC8D3 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1621AEB236BFDA4006BC8D3 /* Work.swift */; };
 		A1C1D3C42358958900666DEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C1D3C32358958900666DEF /* AppDelegate.swift */; };
@@ -26,6 +27,11 @@
 		A1C939972358982000CAD2DD /* ViewController_cause.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C939962358982000CAD2DD /* ViewController_cause.swift */; };
 		A1C939992358982D00CAD2DD /* ViewController_result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C939982358982D00CAD2DD /* ViewController_result.swift */; };
 		A1C9399B23589B6500CAD2DD /* ViewController_iEum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C9399A23589B6500CAD2DD /* ViewController_iEum.swift */; };
+		A1DEC05C236D4194002DB32D /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DEC05B236D4194002DB32D /* NetworkResult.swift */; };
+		A1DEC05E236D4260002DB32D /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DEC05D236D4260002DB32D /* APIConstants.swift */; };
+		A1DEC060236D4369002DB32D /* ResponseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DEC05F236D4369002DB32D /* ResponseString.swift */; };
+		A1DEC062236D4506002DB32D /* LoginServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DEC061236D4506002DB32D /* LoginServices.swift */; };
+		A1DEC064236D5D4E002DB32D /* SignupServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DEC063236D5D4E002DB32D /* SignupServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +43,7 @@
 		A151FCAA23641CD700BF304F /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
 		A151FCAC2364210400BF304F /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 		A151FCAF236429F900BF304F /* UIViewController+AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+AppDelegate.swift"; sourceTree = "<group>"; };
+		A15A8CAE236D67120086EA4B /* ViewController_iEum_signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_iEum_signup.swift; sourceTree = "<group>"; };
 		A1621AE9236BFB5C006BC8D3 /* WorkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkCell.swift; sourceTree = "<group>"; };
 		A1621AEB236BFDA4006BC8D3 /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
 		A1C1D3C02358958900666DEF /* 2nd_seminar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2nd_seminar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +59,11 @@
 		A1C939962358982000CAD2DD /* ViewController_cause.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_cause.swift; sourceTree = "<group>"; };
 		A1C939982358982D00CAD2DD /* ViewController_result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_result.swift; sourceTree = "<group>"; };
 		A1C9399A23589B6500CAD2DD /* ViewController_iEum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_iEum.swift; sourceTree = "<group>"; };
+		A1DEC05B236D4194002DB32D /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		A1DEC05D236D4260002DB32D /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		A1DEC05F236D4369002DB32D /* ResponseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseString.swift; sourceTree = "<group>"; };
+		A1DEC061236D4506002DB32D /* LoginServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginServices.swift; sourceTree = "<group>"; };
+		A1DEC063236D5D4E002DB32D /* SignupServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupServices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +141,7 @@
 		A1C9399D23589D3100CAD2DD /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				A1DEC05A236D416F002DB32D /* APIServices */,
 				A1C1D3C92358958900666DEF /* Main.storyboard */,
 				A151FCA62364149500BF304F /* 2ndMain.storyboard */,
 				A1C1D3CC2358958A00666DEF /* Assets.xcassets */,
@@ -142,12 +155,25 @@
 			children = (
 				A1C1D3D72358968300666DEF /* ViewController_greenScreen.swift */,
 				A1C1D3C72358958900666DEF /* ViewController.swift */,
+				A15A8CAE236D67120086EA4B /* ViewController_iEum_signup.swift */,
 				A1C939962358982000CAD2DD /* ViewController_cause.swift */,
 				A1C939982358982D00CAD2DD /* ViewController_result.swift */,
 				A1C1D3D9235896A800666DEF /* ViewController_pinkScreen.swift */,
 				A1C9399A23589B6500CAD2DD /* ViewController_iEum.swift */,
 			);
 			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		A1DEC05A236D416F002DB32D /* APIServices */ = {
+			isa = PBXGroup;
+			children = (
+				A1DEC05B236D4194002DB32D /* NetworkResult.swift */,
+				A1DEC05D236D4260002DB32D /* APIConstants.swift */,
+				A1DEC05F236D4369002DB32D /* ResponseString.swift */,
+				A1DEC061236D4506002DB32D /* LoginServices.swift */,
+				A1DEC063236D5D4E002DB32D /* SignupServices.swift */,
+			);
+			path = APIServices;
 			sourceTree = "<group>";
 		};
 		C5C1B17DFE4625D7720AF099 /* Pods */ = {
@@ -276,11 +302,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A151FCA92364157C00BF304F /* 2ndViewController.swift in Sources */,
+				A1DEC060236D4369002DB32D /* ResponseString.swift in Sources */,
 				A151FCAB23641CD700BF304F /* BannerCell.swift in Sources */,
 				A1621AEA236BFB5C006BC8D3 /* WorkCell.swift in Sources */,
 				A1C1D3DA235896A800666DEF /* ViewController_pinkScreen.swift in Sources */,
+				A1DEC062236D4506002DB32D /* LoginServices.swift in Sources */,
+				A1DEC05E236D4260002DB32D /* APIConstants.swift in Sources */,
+				A1DEC064236D5D4E002DB32D /* SignupServices.swift in Sources */,
+				A15A8CAF236D67120086EA4B /* ViewController_iEum_signup.swift in Sources */,
 				A1C1D3D82358968300666DEF /* ViewController_greenScreen.swift in Sources */,
 				A151FCAD2364210400BF304F /* Banner.swift in Sources */,
+				A1DEC05C236D4194002DB32D /* NetworkResult.swift in Sources */,
 				A151FCB0236429F900BF304F /* UIViewController+AppDelegate.swift in Sources */,
 				A1C9399B23589B6500CAD2DD /* ViewController_iEum.swift in Sources */,
 				A1621AEC236BFDA4006BC8D3 /* Work.swift in Sources */,
