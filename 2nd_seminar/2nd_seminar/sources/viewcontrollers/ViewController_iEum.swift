@@ -130,7 +130,7 @@ extension ViewController_iEum: UIGestureRecognizerDelegate {
         }
         
         // animation 함수
-        // 최종 결과물 보여줄 상태만 선언해주면 애니메이션은 알아서
+        // 최종 결과물로 보여줄 상태만 선언해주면 애니메이션은 알아서 동작
         // duration은 간격
         UIView.animate(withDuration: duration, delay: 0.0, options: .init(rawValue: curve), animations: {
             
