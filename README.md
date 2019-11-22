@@ -116,7 +116,6 @@ class Roundingbutton: UIButton {
 <img width="200" alt="스크린샷 2019-11-22 오후 8 40 30" src="https://user-images.githubusercontent.com/22251299/69423468-86a66380-0d69-11ea-8149-919df3a82ff6.png">
 
 #### CollectionView Cell의 Estimate Size(Automatic -> None)으로 변경
-
 #### Cell Size 수정할 시, View Size를  먼저 수정(확대)한 후 변경
 
 <div>
