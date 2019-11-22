@@ -18,7 +18,7 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?){
 
 <img width="200" alt="스크린샷 2019-10-18 오후 8 39 41" src="https://user-images.githubusercontent.com/22251299/67091851-b43b4280-f1e8-11e9-8d24-ed17356a077f.png">
 
-####_viewcontroller_cause에 들어갈 코드
+#### viewcontroller_cause에 들어갈 코드
 ```swift
 @IBAction func onSubmit(_ sender: Any) {
     
@@ -38,7 +38,7 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?){
 }
 ```
 
-####_viewcontroller_result에 들어갈 코드
+#### viewcontroller_result에 들어갈 코드
 ```swift
    //이전 viewcontroller에서 넘겨준 데이터 어떤형식으로 받을지 선언
    var paramEmail: String = ""
@@ -81,7 +81,7 @@ UIView.animate(withDuration: duration, delay: 0.0, options: .init(rawValue: curv
 <img width="200" alt="스크린샷 2019-10-25 오전 10 12 06" src="https://user-images.githubusercontent.com/22251299/67537644-45457880-f717-11e9-92db-4efac2694b7d.png">
 </div>
 
-####_Button layout 둥글게 만들 때 
+#### Button layout 둥글게 만들 때 
 ```swift  
 import UIKit
 
@@ -111,12 +111,13 @@ class Roundingbutton: UIButton {
 
 <img width="200" alt="스크린샷 2019-11-22 오후 8 38 47" src="https://user-images.githubusercontent.com/22251299/69423324-27485380-0d69-11ea-80f1-4f7428c669e7.png">
 
-####_ScrollView 사용 전, Viewcontroller의 Simulated Size(Fixed -> Freeform)와 Height(1000) 변경
+#### ScrollView 사용 전, Viewcontroller의 Simulated Size(Fixed -> Freeform)와 Height(1000) 변경
 
 <img width="200" alt="스크린샷 2019-11-22 오후 8 40 30" src="https://user-images.githubusercontent.com/22251299/69423468-86a66380-0d69-11ea-8149-919df3a82ff6.png">
 
-####_CollectionView Cell의 Estimate Size(Automatic -> None)으로 변경
-####_Cell Size 수정할 시, View Size를  먼저 수정(확대)한 후 변경
+#### CollectionView Cell의 Estimate Size(Automatic -> None)으로 변경
+
+#### Cell Size 수정할 시, View Size를  먼저 수정(확대)한 후 변경
 
 <div>
 <img width="200" alt="스크린샷 2019-11-01 오후 9 30 14" src="https://user-images.githubusercontent.com/22251299/68025318-cdb3b280-fcef-11e9-9379-3009bfea8c57.png">
